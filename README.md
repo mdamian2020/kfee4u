@@ -16,6 +16,17 @@ Proiect de vacantă pentru cursantii programului IAP
 5. Crearea _back-end_-ului aplicației folosind Python (_Flask_).
 6. Crearea unei aplicații complementare care să permită automatizarea generării resurselor necesare în momentul creării unui nou site.
 
+Timeline
+
+Proiectul se preconizează a fi derulat pe durata a 10 săptămâni, fiecare etapă având un timp alocat specific:
+
+    Săptămâna 1-2: Crearea interfeței grafice
+    Săptămâna 3-4: Codificarea părții de front-end
+    Săptămâna 5: Cumpărarea soluției de găzduire și configurarea VPS-ului
+    Săptămâna 6-7: Crearea scriptului Python pentru configurarea VPS-ului
+    Săptămâna 8-9: Crearea back-end-ului aplicației
+    Săptămâna 10: Dezvoltarea aplicației complementare și testarea finală
+
 Proiectul se preconizează a fi derulat pe durata a 10 săptămâni.
 
 Aceasta este o modificare de test
