@@ -17,3 +17,5 @@ Proiect de vacantă pentru cursantii programului IAP
 6. Crearea unei aplicații complementare care să permită automatizarea generării resurselor necesare în momentul creării unui nou site.
 
 Proiectul se preconizează a fi derulat pe durata a 10 săptămâni.
+
+Aceasta este o modificare de test
