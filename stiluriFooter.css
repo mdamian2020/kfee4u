@@ -3,7 +3,7 @@ footer {
   width: 90em;
   height: 25em;
   top: 100px;
-  background-image: url("/imagini/fundal_footer350.png");
+  background-image: url("/imagini/fundal_footer.png");
   background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
   background-position: center bottom; /* Centrează imaginea vertical și o poziționează sus */
   position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
