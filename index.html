@@ -15,7 +15,62 @@
       <header></header>
 
       <!-- Aici se include elementul main -->
-      <main></main>
+      <main>
+        <section class="left-section">
+          <h2>Coffee 4 You</h2>
+          <img src="imagini/coffeelovers.png" />
+        </section>
+        <section class="right-section">
+          <h2>Produsele Noastre</h2>
+          <div class="product-buttons">
+            <button class="product-btn" onmouseover="showOptions('coffee')">
+              Cafea
+            </button>
+            <button class="product-btn" onmouseover="showOptions('tea')">
+              Ceai
+            </button>
+            <button class="product-btn" onmouseover="showOptions('cookies')">
+              Fursecuri
+            </button>
+          </div>
+          <div class="options" id="options-coffee">
+            <h3>Cafele</h3>
+            <table class="product-table">
+              <tr>
+                <td>Latte</td>
+                <td>Espresso</td>
+                <td>Cappuccino</td>
+              </tr>
+            </table>
+          </div>
+          <div class="options" id="options-tea">
+            <h3>Ceaiuri</h3>
+            <table class="product-table">
+              <tr>
+                <td>Negru</td>
+                <td>Menta</td>
+                <td>Fructe de pădure</td>
+              </tr>
+            </table>
+          </div>
+          <div class="options" id="options-cookies">
+            <h3>Fursecuri</h3>
+            <table class="product-table">
+              <tr>
+                <td>Biscuiți cu unt</td>
+                <td>Croissant</td>
+                <td>Pișcot</td>
+              </tr>
+            </table>
+          </div>
+          <p class="description">
+            Cafeneaua noastră oferă cele mai bune sortimente de cafea, ceai și
+            fursecuri, preparate cu atenție și pasiune pentru a vă oferi o
+            experiență de neuitat.
+          </p>
+        </section>
+      </main>
+      <script src="script.js"></script>
 
       <!-- Aici se include elementul footer -->
       <footer></footer>

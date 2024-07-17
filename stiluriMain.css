@@ -1,1 +1,92 @@
 /* Aici vor fi stilurile pentru elementul main */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a5bec1;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+h2,
+h3 {
+  color: #171717;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-section,
+.right-section {
+  background-color: rgba(206, 207, 207, 0.992);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(20, 20, 20, 0.771);
+  width: 600px;
+}
+
+.left-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-buttons {
+  margin-bottom: 20px;
+}
+
+.product-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(249, 249, 249);
+  background-color: #0549f5;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.options {
+  display: none;
+
+  margin-bottom: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #0951fb;
+  border-radius: 10px;
+}
+
+.product-table td {
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #090909;
+}
