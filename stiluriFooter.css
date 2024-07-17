@@ -1,1 +1,72 @@
 /* Aici vor fi stilurile pentru elementul footer */
+footer {
+  width: 90em;
+  height: 25em;
+  top: 100px;
+  background-image: url("/imagini/fundal_footer.png");
+  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
+  background-position: center bottom; /* Centrează imaginea vertical și o poziționează sus */
+  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: var(--white);
+}
+.motto-email,
+.icons-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  padding: 90px 0 20px 0;
+}
+.motto {
+  font-family: "Qwitcher Grypen";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: var(--black);
+  padding-top: 20px;
+  align-self: flex-start;
+}
+.footer-mail {
+  display: flex;
+  align-self: flex-end;
+  align-self: center;
+}
+.footer-info {
+  display: flex;
+  gap: 30px;
+  align-self: flex-end;
+  align-self: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  width: 350px;
+}
+.icons_color {
+  filter: invert(98%) sepia(0%) saturate(1710%) hue-rotate(297deg)
+    brightness(112%) contrast(101%);
+  width: 50px;
+  height: 30px;
+}

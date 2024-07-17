@@ -1,12 +1,11 @@
-/* Importă fonturile de la Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Saira+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Qwitcher+Grypen:wght@400;700&display=swap");
 
-/* Declarații variabile CSS pentru culori */
+/* Declarare variabile de culori*/
 :root {
-  --color-dark: #1a1a1a;
-  --color-transparent: #7e3b3b;
-  --color-soft-gray: #e7e7e7;
-  --color-red: #e83439;
+  --beige: #fee2b7;
+  --black: #000000;
+  --orange: #ff9d43;
+  --white: #ffffff;
 }
 
 /* Resetare stiluri de bază */
@@ -16,38 +15,27 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--black);
+  color: var(--white);
+}
+h1,
+h2,
+h3 {
+  font-family: "Qwitcher Grypen", cursive;
+  color: var(--orange);
+}
+
 img {
   display: block;
 }
 
-/* Setează fonturile pentru utilizare în stilurile CSS */
-body {
-  font-family: "Inter", sans-serif;
-  background-color: var(--color-soft-gray);
-  color: var(--color-dark);
-}
-
-/* Utilizare a fontului "Saira Condensed" pentru titluri */
-h1,
-h2,
-h3 {
-  font-family: "Saira Condensed", sans-serif;
-  color: var(--color-red);
-}
-
-/* Utilizarea variabilelor de culoare */
-.button {
-  background-color: var(--color-red);
-  color: var(--color-soft-gray);
-}
-
-.button:hover {
-  background-color: var(--color-transparent);
-  color: var(--color-dark);
-}
-
-/* Crearea unui container centrat */
-#container {
+.container {
   max-width: 1440px;
+  height: 70em;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }

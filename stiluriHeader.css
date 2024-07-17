@@ -1,6 +1,69 @@
 header {
-  width: 100%;
-  height: 600px;
-  background-image: url("imagini/bg_header.png");
-  background-color: white;
+  width: 90em;
+  background-image: url("/imagini/fundal_header.png");
+  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
+  background-position: center top; /* Centrează imaginea vertical și o poziționează sus */
+  height: 40em;
+  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
+  background-repeat: no-repeat;
+}
+/*modificare culoare si dimensiune logo*/
+.orange {
+  filter: invert(80%) sepia(43%) saturate(3785%) hue-rotate(328deg)
+    brightness(105%) contrast(101%);
+  width: 5em;
+  height: 4em;
+}
+#logo-meniu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.25em;
+  height: 4em;
+  width: 70em;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* txt_logo */
+.coffeelovers {
+  font-family: "Qwitcher Grypen";
+  font-weight: 30em;
+  font-size: 4em;
+  line-height: 0.2em;
+  letter-spacing: 0.1em;
+  color: #ff9d43;
+  padding-left: 0.2em;
+}
+/* meniu */
+nav a,
+button {
+  font-family: "Qwitcher Grypen";
+  font-weight: 30em;
+  font-size: 1.25em;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--orange);
+}
+
+button {
+  background-color: var(--orange);
+  color: var(--white);
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 0.2em;
 }
