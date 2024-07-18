@@ -1,9 +1,9 @@
 header {
   width: 90em;
-  background-image: url("/imagini/fundal_header.png");
+  background-image: url("imagini/fundal_header.png");
   background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
   background-position: center top; /* Centrează imaginea vertical și o poziționează sus */
-  height: 40em;
+  height: 30em;
   position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
   background-repeat: no-repeat;
 }

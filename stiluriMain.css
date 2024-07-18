@@ -1,38 +1,30 @@
 /* Aici vor fi stilurile pentru elementul main */
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #a5bec1;
-}
-
-header {
-  text-align: center;
-  padding: 20px;
-  background-color: #333;
-  color: white;
-}
-h2,
-h3 {
-  color: #171717;
-}
-
 main {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  padding: 20px;
-  gap: 20px;
+  padding: 40px;
+  gap: 40px;
+}
+
+h2,
+h3 {
+  color: #000000; /* Change text color to blue */
+  font-size: 50px; /* Change font size */
+  text-align: center; /* Center align the text */
+  margin-top: 10px; /* Add top margin */
+  font-family: "Qwitcher Grypen"; /* Change font family */
+  font-weight: bold; /* Make the text bold */
+  /* text-transform: uppercase; /* Transform text to uppercase */
 }
 
 .left-section,
 .right-section {
-  background-color: rgba(206, 207, 207, 0.992);
+  background-color: #ff9d43;
   padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(20, 20, 20, 0.771);
-  width: 600px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
+  width: 800px;
 }
 
 .left-section img {
@@ -47,10 +39,11 @@ main {
 .product-btn {
   display: block;
   width: 100%;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: rgb(249, 249, 249);
-  background-color: #0549f5;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #c9c8c1;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -60,7 +53,7 @@ main {
 }
 
 .product-btn:hover {
-  background-color: #0056b3;
+  background-color: #c9c8c1;
   transform: scale(1.05);
 }
 
@@ -74,19 +67,21 @@ main {
   width: 100%;
   border-collapse: collapse;
   margin-top: 10px;
-  background-color: #0951fb;
+  background-color: #c9c8c1;
   border-radius: 10px;
 }
 
 .product-table td {
   padding: 12px;
+  font-size: 50px;
+  font-family: "Qwitcher Grypen";
   text-align: center;
-  color: #f8f8f8;
-  border: 1px solid #f8f8f8;
+  color: #000000;
+  /*border: 1px solid #000000; */
 }
 
 .description {
-  font-size: 16px;
+  font-size: 36px;
   line-height: 1.5;
   color: #090909;
 }
