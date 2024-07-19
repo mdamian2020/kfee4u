@@ -21,10 +21,13 @@ Crearea unui site web pentru o cafenea utilizând soluții software care permit 
 ### 3. Achiziționarea unei Soluții de Găzduire
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Proiectul se preconizează a fi derulat pe durata a 10 săptămâni.
 
 Aceasta este o modificare de test
 =======
+=======
+>>>>>>> upstream/main
 - **Găzduire:** Contabo GmbH, varianta Cloud VPS 1
 - **Nume de domeniu:** Achiziționare de pe namecheap.com
 - **Configurație:** Configurarea DNS-ului și a VPS-ului pentru a permite găzduirea aplicațiilor web.
@@ -57,4 +60,7 @@ Proiectul se va derula pe parcursul a 10 săptămâni, cu etapele următoare alo
 - **Săptămâna 6-7:** Crearea scriptului Python pentru configurarea VPS-ului
 - **Săptămâna 8-9:** Crearea back-end-ului aplicației
 - **Săptămâna 10:** Dezvoltarea aplicației complementare și testarea finală
+<<<<<<< HEAD
 >>>>>>> 3c86237 (Posibila imbunatatire)
+=======
+>>>>>>> upstream/main
