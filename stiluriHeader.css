@@ -1,12 +1,14 @@
 header {
   width: 90em;
   background-image: url("/imagini/fundal_header.png");
-  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
-  background-position: center top; /* Centrează imaginea vertical și o poziționează sus */
+  background-size: 100% auto;
+  background-position: center top;
   height: 40em;
-  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
+  position: relative;
   background-repeat: no-repeat;
+  margin: 0 auto; /* Center the header */
 }
+
 /*modificare culoare si dimensiune logo*/
 .orange {
   filter: invert(80%) sepia(43%) saturate(3785%) hue-rotate(328deg)

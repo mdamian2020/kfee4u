@@ -1,1 +1,50 @@
 /* Aici vor fi stilurile pentru elementul main */
+main {
+  width: 90em;
+  height: auto;
+  top: 0px;
+  background-size: 100% auto;
+  background-position: center bottom;
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto; /* Center the footer */
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.main-content {
+  padding: 50px 0;
+  gap: 20px;
+  display: flex;
+}
+
+.main-content .coffee-cups {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-content .text-content {
+  max-width: 50%;
+  font-family: "Inter";
+}
+
+.main-content .text-content h2 {
+  font-size: 45px;
+  color: var(--orange);
+}
+
+.main-content .text-content p {
+  margin: 10px 0;
+}
+
+.main-content .text-content .sign-up {
+  background-color: var(--orange);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}

@@ -4,13 +4,13 @@ footer {
   height: 25em;
   top: 100px;
   background-image: url("/imagini/fundal_footer.png");
-  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
-  background-position: center bottom; /* Centrează imaginea vertical și o poziționează sus */
-  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
+  background-size: 100% auto;
+  background-position: center bottom;
+  position: relative;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0 auto; /* Center the footer */
   padding-left: 10em;
   padding-right: 10em;
 }
