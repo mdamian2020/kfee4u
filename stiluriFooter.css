@@ -1,72 +1,86 @@
 /* Aici vor fi stilurile pentru elementul footer */
-footer {
-  width: 90em;
-  height: 25em;
-  top: 100px;
-  background-image: url("/imagini/fundal_footer.png");
-  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
-  background-position: center bottom; /* Centrează imaginea vertical și o poziționează sus */
-  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-left: 10em;
-  padding-right: 10em;
+
+.desktop .overlap {
+  height: 494px;
+  top: 2611px;
+  background-image: url(./imagini/rectangle-3.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  width: 1440px;
+  left: 0;
 }
 
-footer a {
-  text-decoration: none;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
-  text-transform: capitalize;
-  color: var(--white);
-}
-.motto-email,
-.icons-info {
+.desktop .frame-8 {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  gap: 20px;
-  padding: 90px 0 20px 0;
-}
-.motto {
-  font-family: "Qwitcher Grypen";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 76px;
-  line-height: 40px;
-  letter-spacing: 0.1em;
-  text-transform: capitalize;
-  color: var(--black);
-  padding-top: 20px;
-  align-self: flex-start;
-}
-.footer-mail {
-  display: flex;
-  align-self: flex-end;
-  align-self: center;
-}
-.footer-info {
-  display: flex;
-  gap: 30px;
-  align-self: flex-end;
-  align-self: center;
+  width: 1235px;
+  align-items: flex-start;
+  gap: 92px;
+  position: relative;
+  top: 59px;
+  left: 45px;
 }
 
-.icons {
+.desktop .frame-9 {
   display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
 }
-.icons_color {
-  filter: invert(98%) sepia(0%) saturate(1710%) hue-rotate(297deg)
-    brightness(112%) contrast(101%);
-  width: 50px;
-  height: 30px;
+
+.desktop .dark-coffee-bright {
+  position: relative;
+  width: 860px;
+  margin-top: -1px;
+  font-family:  var(--txt-menu-font-family), Helvetica;
+  font-weight: var(--txt-menu-font-weight);
+  color: var(--black);
+  font-size: 96px;
+  letter-spacing: 14.4px;
+  line-height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.desktop .frame-10 {
+  position: relative;
+  width: 204px;
+  margin-right: -4px;
+}
+
+.desktop .frame-11 {
+  display: flex;
+  align-items: center;
+  gap: 320px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.desktop .text-wrapper-4 {
+  position: relative;
+  margin-top: -1px;
+  font-family: var(--txt-footer-font-family);
+  font-weight: var(--txt-footer-font-weight);
+  color: #ffffff;
+  font-size: var(--txt-footer-font-size);
+  letter-spacing: var(--txt-footer-letter-spacing);
+  line-height: var(--txt-footer-line-height);
+  white-space: nowrap;
+  font-style: var(--txt-footer-font-style);
+}
+
+.desktop .frame-12 {
+  display: inline-flex;
+  align-items: center;
+  gap: 57px;
+  position: relative;
+  flex: 0 0 auto;
 }

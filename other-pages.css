@@ -1,0 +1,53 @@
+
+.desktop {
+  background-color: #1d1c1c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .div {
+  background-color: #000000;
+  width: 1440px;
+  height: 3105px;
+  position: relative;
+  padding: 0 auto;
+}
+ 
+ header{
+        text-align: right;
+        padding-right: 8em;
+        padding-top: 2em;
+    }
+
+
+    .text-wrapper-2 {
+        position: relative;
+        width: moz-fit-content;
+        margin-top: -1px;
+        font-family: var(--menu-font-family);
+        font-weight: var(--menu-font-weight);
+        color: var(--variable-collection-white);
+        -webkit-text-fill-color: #be7a14;
+        font-size: var(--menu-font-size);
+        letter-spacing: var(--menu-letter-spacing);
+        line-height: var(--menu-line-height);
+        white-space: nowrap;
+        font-style: var(--menu-font-style);
+      }
+
+    .text-box {
+        position: relative;
+        text-align: center;
+        font-family: "Qwitcher Grypen";
+        font-weight: 700;
+        font-size: 4em;
+        line-height: 0.2em;
+        letter-spacing: 0.1em;
+        color: #ff9d43;
+        padding-top: 2em;
+
+
+    }
+

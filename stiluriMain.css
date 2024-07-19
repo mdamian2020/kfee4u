@@ -1,1 +1,207 @@
 /* Aici vor fi stilurile pentru elementul main */
+.desktop .frame-13 {
+    display: flex;
+    width: 1350px;
+    align-items: flex-start;
+    gap: 56px;
+    padding: 0px 28px;
+    position: absolute;
+    top: 905px;
+    left: 45px;
+  }
+  
+  .desktop .rectangle-2 {
+    position: relative;
+    width: 605px;
+    height: 689px;
+  }
+  
+  .desktop .frame-14 {
+    display: flex;
+    flex-direction: column;
+    width: 664px;
+    height: 699px;
+    align-items: flex-start;
+    padding: 0px 20px;
+    position: relative;
+    margin-right: -31px;
+  }
+  
+  .desktop .frame-15 {
+    display: flex;
+    flex-direction: column;
+    height: 629px;
+    align-items: flex-start;
+    gap: 21px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .desktop .frame-16 {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .rectangle-3 {
+    position: relative;
+    width: 10px;
+    height: 107px;
+    background-color: var(--logo);
+  }
+  
+  .desktop .our-story {
+    position: relative;
+    margin-top: -1px;
+    font-family: "Qwitcher Grypen-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--logo);
+    font-size: 96px;
+    letter-spacing: 14.4px;
+    line-height: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .desktop .flexcontainer {
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  
+  .desktop .text {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--txt-description-font-family);
+    font-weight: var(--txt-description-font-weight);
+    color: #ffffff;
+    font-size: var(--txt-description-font-size);
+    letter-spacing: var(--txt-description-letter-spacing);
+    line-height: var(--txt-description-line-height);
+    font-style: var(--txt-description-font-style);
+  }
+  
+  .desktop .span {
+    letter-spacing: var(--txt-description-letter-spacing);
+    font-family: var(--txt-description-font-family);
+    font-style: var(--txt-description-font-style);
+    font-weight: var(--txt-description-font-weight);
+    line-height: var(--txt-description-line-height);
+    font-size: var(--txt-description-font-size);
+  }
+  
+  .desktop .div-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--logo);
+  }
+  
+  .desktop .frame-17 {
+    display: flex;
+    width: 1336px;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+    position: absolute;
+    top: 1931px;
+    left: 52px;
+  }
+  
+  .desktop .frame-18 {
+    display: flex;
+    flex-direction: column;
+    width: 401px;
+    height: 533px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 13px;
+    position: relative;
+  }
+  
+  .desktop .rectangle-4 {
+    position: relative;
+    width: 355px;
+    height: 284px;
+    object-fit: cover;
+  }
+  
+  .desktop .caffe-title {
+    position: relative;
+    width: 355px;
+    font-family: var(--txt-cafee-title-font-family);
+    font-weight: var(--txt-cafee-title-font-weight);
+    color: #ffffff;
+    font-size: var(--txt-cafee-title-font-size);
+    text-align: center;
+    letter-spacing: var(--txt-cafee-title-letter-spacing);
+    line-height: var(--txt-cafee-title-line-height);
+    font-style: var(--txt-cafee-title-font-style);
+  }
+  
+  .desktop .flexcontainer-2 {
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+  
+  .desktop .span-wrapper {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--bgcoffee-2);
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 30px;
+  }
+  
+  .desktop .text-wrapper-5 {
+    letter-spacing: 0.8px;
+  }
+  
+  .desktop .frame-19 {
+    display: flex;
+    width: 355px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .element-lei {
+    position: relative;
+    margin-top: -1px;
+    font-family: var(--txt-cafee-title-font-family);
+    font-weight: var(--txt-cafee-title-font-weight);
+    color: #ffffff;
+    font-size: var(--txt-cafee-title-font-size);
+    letter-spacing: var(--txt-cafee-title-letter-spacing);
+    line-height: var(--txt-cafee-title-line-height);
+    white-space: nowrap;
+    font-style: var(--txt-cafee-title-font-style);
+  }
+  
+  .desktop .frame-20 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+  }
+  

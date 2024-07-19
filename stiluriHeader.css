@@ -1,69 +1,235 @@
 header {
+  display: flexbox;
   width: 90em;
   background-image: url("/imagini/fundal_header.png");
   background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
   background-position: center top; /* Centrează imaginea vertical și o poziționează sus */
-  height: 40em;
+  height: 600px;
   position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
   background-repeat: no-repeat;
 }
-/*modificare culoare si dimensiune logo*/
-.orange {
-  filter: invert(80%) sepia(43%) saturate(3785%) hue-rotate(328deg)
-    brightness(105%) contrast(101%);
-  width: 5em;
-  height: 4em;
-}
-#logo-meniu {
+.desktop {
+  background-color: #000000;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.25em;
-  height: 4em;
-  width: 70em;
-  margin: 0 auto;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.logo {
+.desktop .div {
+  background-color: #000000;
+  width: 1440px;
+  height: 3105px;
+  position: relative;
+}
+
+.desktop .overlap-group {
+  height: 900px;
+  top: 0;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.desktop .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 650px;
+  top: 0;
+  left: 0;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 1440px;
+  height: 314px;
+  top: 586px;
+  left: 0;
+}
+
+.desktop .frame {
+  display: flex;
+  width: 1350px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 1px;
+  left: 45px;
+}
+
+.desktop .frame-2 {
   display: flex;
   flex-direction: column;
+  width: 443px;
   align-items: flex-start;
+  position: relative;
 }
 
-/* txt_logo */
-.coffeelovers {
-  font-family: "Qwitcher Grypen";
-  font-weight: 30em;
-  font-size: 4em;
-  line-height: 0.2em;
-  letter-spacing: 0.1em;
-  color: #ff9d43;
-  padding-left: 0.2em;
-}
-/* meniu */
-nav a,
-button {
-  font-family: "Qwitcher Grypen";
-  font-weight: 30em;
-  font-size: 1.25em;
-  line-height: 2em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--orange);
+.desktop .group {
+  position: relative;
+  width: 138px;
+  height: 109px;
 }
 
-button {
-  background-color: var(--orange);
-  color: var(--white);
-  padding-left: 0.625em;
-  padding-right: 0.625em;
+.desktop .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -21px;
+  font-family: var(--txt-logo-font-family);
+  font-weight: var(--txt-logo-font-weight);
+  color: var(--logo);
+  font-size: var(--txt-logo-font-size);
+  letter-spacing: var(--txt-logo-letter-spacing);
+  line-height: var(--txt-logo-line-height);
+  font-style: var(--txt-logo-font-style);
 }
-nav {
+
+.desktop .frame-3 {
   display: flex;
-  justify-content: space-between;
-  gap: 2em;
+  width: 706px;
+  height: 55px;
   align-items: center;
-  flex-wrap: wrap;
-  padding-right: 0.2em;
+  justify-content: space-between;
+  position: relative;
+}
+
+.desktop .navbar {
+  display: flex;
+  width: 538px;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  box-shadow: var(--m3-elevation-dark-3);
+  -webkit-text-fill-color:rgba(255, 157, 67, 1);;
+}
+
+.desktop .text-wrapper-2 {
+  position: relative;
+  margin-top: -1px;
+  font-family: var(--txt-menu-font-family);
+  font-weight: var(--txt-menu-font-weight);
+  color: var(--logo);
+  font-size: var(--txt-menu-font-size);
+  letter-spacing: var(--txt-menu-letter-spacing);
+  line-height: var(--txt-menu-line-height);
+  white-space: nowrap;
+  font-style: var(--txt-menu-font-style);
+}
+
+.desktop .sign-up-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -7.5px;
+  margin-bottom: -7.5px;
+  background-color: var(--logo);
+}
+
+.desktop .sign-up {
+  position: relative;
+  margin-top: -1px;
+  font-family: var(--txt-signup-font-family);
+  font-weight: var(--txt-signup-font-weight);
+  color: #fffefe;
+  font-size: var(--txt-signup-font-size);
+  letter-spacing: var(--txt-signup-letter-spacing);
+  line-height: var(--txt-signup-line-height);
+  white-space: nowrap;
+  font-style: var(--txt-signup-font-style);
+}
+
+.desktop .frame-4 {
+  display: flex;
+  width: 661px;
+  height: 241px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 39px;
+  position: absolute;
+  top: 260px;
+  left: 734px;
+  background-color: var(--logo);
+  box-shadow: var(--drop-shadow-100);
+}
+
+.desktop .frame-5 {
+  display: flex;
+  flex-direction: column;
+  width: 213px;
+  align-items: center;
+  gap: 31px;
+  position: relative;
+}
+
+.desktop .group-2 {
+  position: relative;
+  width: 159px;
+  height: 159.5px;
+  margin-top: -5px;
+}
+
+.desktop .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 30px;
+}
+
+.desktop .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 213px;
+  height: 215,5px;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  margin-left: -48px;
+  margin-bottom: auto;
+}
+
+.desktop .group-3 {
+  position: relative;
+  width: 111px;
+  height: 155px;
+  margin-top: 10px;
+}
+
+.desktop .easy-to-drink {
+  position: relative;
+  align-self: stretch;
+  height: 100px;
+  margin-bottom: -22px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 3.6px;
+  line-height: 30px;
+}
+
+.desktop .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 213px;
+  height: 215,5px;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  margin-left: -48px;
+}
+
+.desktop .group-4 {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  margin-top: 20px;
 }

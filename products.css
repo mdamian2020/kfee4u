@@ -1,0 +1,195 @@
+
+.desktop {
+    background-color: #1d1c1c;
+    display: flex;
+    float: none;
+    object-position: right;
+    flex-direction: row;
+    justify-content: center;
+    width: auto
+  }
+  
+  .desktop .div {
+    background-color: #000000;
+    width: 1440px;
+    height: 3105px;
+    position: relative;
+    padding: 0 auto;
+  
+
+        header{
+            text-align: right;
+            padding-right: 8em;
+            padding-top: 2em;
+        }
+        .div {
+            background-color: var(--softgray);
+            width: 1440px;
+            height: 1744px;
+            position: relative;
+        }
+        .text-wrapper-2 {
+            position: relative;
+            width: moz-fit-content;
+            margin-top: -1px;
+            font-family: var(--menu-font-family);
+            font-weight: var(--menu-font-weight);
+            color: var(--variable-collection-white);
+            -webkit-text-fill-color: #be7a14;
+            font-size: var(--menu-font-size);
+            letter-spacing: var(--menu-letter-spacing);
+            line-height: var(--menu-line-height);
+            white-space: nowrap;
+            font-style: var(--menu-font-style);
+        }
+
+        .text-box {
+            /*object-position: 0em ;*/
+            text-align: center;
+            font-family: "Qwitcher Grypen";
+            font-weight: bold ;
+            font-size: 4em;
+            line-height: 0.2em;
+            letter-spacing: 0.1em;
+            color: #ff9d43;
+            padding-top: 1em;
+
+
+        }
+        .frame-9 {
+            position: relative;
+            top: 10px;
+            left: 250px;
+            padding-left: 1,5em;
+        }
+
+        .rectangle-2 {
+            display:contents ;
+            position: relative;
+            width: 550px;
+            height: 560px;
+            object-fit: cover;
+        }
+
+        .gallery-wrapper {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            margin: 20px auto;
+            transform-style: preserve-3d;
+            transition: transform 0.7s;
+            align-self: center;
+        }
+
+        .image-container {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease;
+            
+        }
+
+        .image-container span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            cursor: pointer;
+            transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+            transition: transform 0.3s ease;
+        }
+
+        .image-container span img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+            width: 80%;
+            transition: transform 0.3s ease;
+        }
+
+        .overlay {
+            position: fixed; 
+            top: 0;
+            left: 0;
+            width: 110%;
+            height: 110%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 10;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay.active {
+            display: flex;
+            border-color: #ff9d43;
+
+        }
+
+
+        img { 
+            display: block; 
+        }
+
+        .img {
+            position: relative;
+            width: 100px;
+            height: 100px;
+        }
+        .popup-img {
+            width: 300px;
+            height: 300px;
+            margin-top: -5%;
+            margin-left: -4%;
+            background-color: rgb(82, 80, 80);
+            border-radius: 15px;
+            
+        }
+
+
+        .activeImage {
+            /* This is the style that visually selects the active image */
+            box-shadow: 0 0 10px #be7a14; /* Add a yellow glow */
+        }
+        .btn {
+            display: flex;
+            position:relative ;
+            align-self: self-end;
+            bottom: -247px;
+            left: 100px;
+            background-color: rgb(103, 102, 70);
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+
+        .btn-container {
+            position: relative;
+            width: 80%;
+        }
+        #next {
+            right: 20%;
+        }
+        btn:hover {
+            filter: brightness(1.5);
+        }
+
+
+        .description-box {
+            margin-top: 1em;
+            font-style:italic;
+            font-family: cursive ;
+            font-size: 2em;
+            text-align: center;
+            -webkit-text-fill-color: #be7a14;
+
+        }
+  }
