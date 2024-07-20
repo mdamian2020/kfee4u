@@ -37,21 +37,28 @@
 
       <!-- Aici se include elementul main -->
       <main>
-
-        <section class="left-section">
-          <h2>C o f f e e l o v e r s</h2>
-          <img src="imagini/cafenea.jpg" />
-        </section>
+        <div class="img-and-about-us-container">
+          <section class="left-section">
+            <h2>C o f f e e l o v e r s</h2>
+            <img src="imagini/cafenea.jpg" />
+          </section>
+          <div class="about-us">
+            <h2>About us:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officia, sunt voluptas veniam sapiente enim cum illo, molestiae quod placeat maiores possimus at blanditiis aspernatur ratione iusto dolor, sequi harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem quidem quis? Vel, molestias. Omnis enim praesentium maxime sit voluptates commodi sequi quae, aliquam nesciunt, expedita adipisci explicabo laborum odio.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis neque qui provident sed, voluptas praesentium cupiditate doloribus veritatis dicta! Dolor asperiores dicta nihil eligendi aut ducimus quibusdam ad natus iure.</p>
+          </div>
+        </div>
         <section class="right-section">
           <h2>P r o d u s e l e   N o a s t r e</h2>
           <div class="product-buttons">
-            <button class="product-btn" onmouseover="showOptions('coffee')">
+            <button class="product-btn" onclick="showOptions('coffee')">
               Cafea
             </button>
-            <button class="product-btn" onmouseover="showOptions('tea')">
+            <button class="product-btn" onclick="showOptions('tea')">
               Ceai
             </button>
-            <button class="product-btn" onmouseover="showOptions('cookies')">
+            <button class="product-btn" onclick="showOptions('cookies')">
               Fursecuri
             </button>
           </div>
@@ -85,9 +92,12 @@
               </tr>
             </table>
           </div>
-          <p class="description">
-            Cafeaua se bea cu mine nu cu zahăr.
-          </p>
+          <section class="description-section">
+            <p class="description">
+              Cafeaua se bea cu mine nu cu zahăr.
+            </p>
+          </section>
+            
         </section>   
       </main>
       

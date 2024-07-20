@@ -6,6 +6,7 @@ header {
   height: 30em;
   position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
   background-repeat: no-repeat;
+  margin: 0 auto; /* Centreaza header-ul la mijlocul paginii*/
 }
 /*modificare culoare si dimensiune logo*/
 .orange {
