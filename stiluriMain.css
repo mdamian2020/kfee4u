@@ -1,1 +1,87 @@
 /* Aici vor fi stilurile pentru elementul main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  padding: 40px;
+  gap: 40px;
+}
+
+h2,
+h3 {
+  color: #000000; /* Change text color to blue */
+  font-size: 50px; /* Change font size */
+  text-align: center; /* Center align the text */
+  margin-top: 10px; /* Add top margin */
+  font-family: "Qwitcher Grypen"; /* Change font family */
+  font-weight: bold; /* Make the text bold */
+  /* text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.left-section,
+.right-section {
+  background-color: #ff9d43;
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
+  width: 800px;
+}
+
+.left-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-buttons {
+  margin-bottom: 20px;
+}
+
+.product-btn {
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #c9c8c1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.product-btn:hover {
+  background-color: #c9c8c1;
+  transform: scale(1.05);
+}
+
+.options {
+  display: none;
+
+  margin-bottom: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #c9c8c1;
+  border-radius: 10px;
+}
+
+.product-table td {
+  padding: 12px;
+  font-size: 50px;
+  font-family: "Qwitcher Grypen";
+  text-align: center;
+  color: #000000;
+  /*border: 1px solid #000000; */
+}
+
+.description {
+  font-size: 36px;
+  line-height: 1.5;
+  color: #090909;
+}

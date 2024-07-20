@@ -36,7 +36,63 @@
       </header>
 
       <!-- Aici se include elementul main -->
-      <main></main>
+      <main>
+
+        <section class="left-section">
+          <h2>C o f f e e l o v e r s</h2>
+          <img src="imagini/cafenea.jpg" />
+        </section>
+        <section class="right-section">
+          <h2>P r o d u s e l e   N o a s t r e</h2>
+          <div class="product-buttons">
+            <button class="product-btn" onmouseover="showOptions('coffee')">
+              Cafea
+            </button>
+            <button class="product-btn" onmouseover="showOptions('tea')">
+              Ceai
+            </button>
+            <button class="product-btn" onmouseover="showOptions('cookies')">
+              Fursecuri
+            </button>
+          </div>
+          <div class="options" id="options-coffee">
+            <h3>Cafele</h3>
+            <table class="product-table">
+              <tr>
+                <td>Latte</td>
+                <td>Espresso</td>
+                <td>Cappuccino</td>
+              </tr>
+            </table>
+          </div>
+          <div class="options" id="options-tea">
+            <h3>Ceaiuri</h3>
+            <table class="product-table">
+              <tr>
+                <td>Negru</td>
+                <td>Menta</td>
+                <td>Fructe de pădure</td>
+              </tr>
+            </table>
+          </div>
+          <div class="options" id="options-cookies">
+            <h3>Fursecuri</h3>
+            <table class="product-table">
+              <tr>
+                <td>Biscuiți cu unt</td>
+                <td>Croissant</td>
+                <td>Pișcot</td>
+              </tr>
+            </table>
+          </div>
+          <p class="description">
+            Cafeaua se bea cu mine nu cu zahăr.
+          </p>
+        </section>   
+      </main>
+      
+      <script src="script.js"></script>
+
 
       <!-- Aici se include elementul footer -->
       <footer>
