@@ -6,8 +6,8 @@ main {
   align-items: center;
   padding: 40px;
   gap: 40px;
+  width: 100%;
 }
-
 .img-and-about-us-container {
   display: flex;
   width: 80%;
@@ -102,6 +102,7 @@ h3 {
 }
 
 .product-table td {
+  width: 33.33%;
   padding: 12px;
   font-size: 50px;
   font-family: "Qwitcher Grypen";
@@ -125,3 +126,89 @@ h3 {
   padding: 20px;
   text-align: center;
 }
+
+.frame-18 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 433px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 13px;
+ 
+}
+
+.rectangle-4 {
+  height: 251px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.frame-20 {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  background-color: beige;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.frame-19 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.caffe-title {
+  position: relative;
+  font-family: var(--txt-cafee-title-font-family);
+  font-weight: var(--txt-cafee-title-font-weight);
+  color: #ffffff;
+  font-size: var(--txt-cafee-title-font-size);
+  text-align: center;
+  letter-spacing: var(--txt-cafee-title-letter-spacing);
+  line-height: var(--txt-cafee-title-line-height);
+  font-style: var(--txt-cafee-title-font-style);
+}
+
+.flexcontainer-2 { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  height: 120px;
+}
+
+.span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--bgcoffee-2);
+  font-size: 20px;
+  letter-spacing: 4px;
+  line-height: 30px;
+}
+
+.text-wrapper-5 {
+  letter-spacing: 0.8px;
+}
+
+.element-lei {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--txt-cafee-title-font-family);
+  font-weight: var(--txt-cafee-title-font-weight);
+  color: #ffffff;
+  font-size: var(--txt-cafee-title-font-size);
+  letter-spacing: var(--txt-cafee-title-letter-spacing);
+  line-height: var(--txt-cafee-title-line-height);
+  white-space: nowrap;
+  font-style: var(--txt-cafee-title-font-style);
+}
+
+
