@@ -131,7 +131,7 @@ h3 {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 433px;
+  height: 500px;
   align-items: center;
   justify-content: space-between;
   padding: 19px 13px;
@@ -203,7 +203,7 @@ h3 {
   margin-top: -1px;
   font-family: var(--txt-cafee-title-font-family);
   font-weight: var(--txt-cafee-title-font-weight);
-  color: #ffffff;
+  color: #a01212;
   font-size: var(--txt-cafee-title-font-size);
   letter-spacing: var(--txt-cafee-title-letter-spacing);
   line-height: var(--txt-cafee-title-line-height);
