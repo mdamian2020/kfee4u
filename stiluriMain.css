@@ -1,7 +1,7 @@
 /* Aici vor fi stilurile pentru elementul main */
 main {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 40px;
@@ -93,6 +93,7 @@ h3 {
   margin-bottom: 20px;
   max-width: 100%;
   height: auto;
+
 }
 
 .product-table {
@@ -103,29 +104,7 @@ h3 {
   margin-top: 10px;
   background-color: #ff9d43;
   border-radius: 10px;
-}
-
-.product-table td {
-  max-width: 25%;
-  height: auto;
-  padding: 6px;
-  font-size: 50px;
-  font-family: "Qwitcher Grypen";
-  text-align: center;
-  color: #000000;
-  /*border: 1px solid #000000; */
-}
-
-.product-table tbody{
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.product-table tr{
-  display: block;
-  max-width: 100%;
-  height: auto;
+  justify-content: space-evenly;
 }
 
 .description {
@@ -146,22 +125,18 @@ h3 {
 
 .frame-18 {
   position: relative;
+  height: auto;
 
-  height: 500px;
-  align-items: center;
-  justify-content: space-between;
   padding: 19px 13px;
-
- 
+  max-width: min-content;
+  padding-bottom: 3em;
 }
 
 .rectangle-4 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  
-  
+  width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
@@ -173,12 +148,13 @@ h3 {
   height: 38px;
   background-color: beige;
   border-radius: 6px;
-  align-self: center;
+  padding-block: 3px;
+  left: 20px;
 }
 
 .frame-19 {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 0px 16px;
   position: relative;
@@ -187,14 +163,13 @@ h3 {
 
 .caffe-title {
   position: relative;
-  font-family: var(--txt-cafee-title-font-family);
-  font-weight: var(--txt-cafee-title-font-weight);
+  font-family: "Qwitcher Grypen";
+  font-weight: 400;
   color: #ffffff;
-  font-size: var(--txt-cafee-title-font-size);
+  font-size: 3em;
   text-align: center;
-  letter-spacing: var(--txt-cafee-title-letter-spacing);
-  line-height: var(--txt-cafee-title-line-height);
-  font-style: var(--txt-cafee-title-font-style);
+  letter-spacing: 2px;
+  text-shadow: 5px 5px 10px blue;
 }
 
 .flexcontainer-2 { 
@@ -203,6 +178,7 @@ h3 {
   align-items: flex-start;
   gap: 7px;
   height: 120px;
+  text-shadow: 9px 19px 20px #973c3c;
 }
 
 .span-wrapper {
@@ -211,9 +187,11 @@ h3 {
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: var(--bgcoffee-2);
-  font-size: 20px;
+  font-size: 15px;
+  font-style: italic;
   letter-spacing: 4px;
   line-height: 30px;
+  text-align: center;
 }
 
 .text-wrapper-5 {
@@ -223,15 +201,11 @@ h3 {
 .element-lei {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
-  font-family: var(--txt-cafee-title-font-family);
-  font-weight: var(--txt-cafee-title-font-weight);
+  margin-top: 4px;
   color: #a01212;
-  font-size: var(--txt-cafee-title-font-size);
-  letter-spacing: var(--txt-cafee-title-letter-spacing);
-  line-height: var(--txt-cafee-title-line-height);
+  font-size: 27px;
   white-space: nowrap;
-  font-style: var(--txt-cafee-title-font-style);
+  text-shadow: 4px 5px 25px red;
 }
 
 
