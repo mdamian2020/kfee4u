@@ -1,30 +1,30 @@
 /* Aici vor fi stilurile pentru elementul main */
 main {
-  width: 90em;
+  width: 90rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  padding-left: 5em;
-  padding-right: 5em;
+  position: relative;
+  padding: 0 10rem;
 }
 
 .product-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5em;
+  gap: 2rem;
   position: absolute;
-  width: 35em;
-  height: 7.5em;
-  margin-top: -15em;
-  left: 60%;
+  width: 25rem;
+  height: 5.5rem;
+  right: 10rem;
+  top: -14rem;
   background-color: var(--orange);
   border-radius: 5px;
 }
 .product-buttons img {
-  width: 2em;
-  height: 2em;
+  width: 3rem;
+  height: 3rem;
   align-self: center;
 }
 
@@ -33,15 +33,13 @@ main {
   flex-direction: column;
   justify-content: center;
   font-family: "Inter", sans-serif;
-  font-size: 1.7em;
+  font-size: 1.7rem;
   font-weight: bold;
   color: var(--black);
   border: none;
   cursor: pointer;
   text-align: center;
   background-color: var(--orange);
-  padding-left: 0.625em;
-  padding-right: 0.625em;
 }
 
 .product-btn:hover {
@@ -59,24 +57,24 @@ main {
   justify-content: center;
   margin: 0 auto;
   align-items: center;
-  padding: 1em 1em;
+  padding: 1rem 1rem;
   height: auto;
   width: auto;
-  gap: 5em;
+  gap: 5rem;
 }
 
 .left-side img {
-  width: 30em;
-  height: 20em;
+  width: 30rem;
+  height: 20rem;
   border-radius: 10px;
 }
 
 .vertical_line {
-  width: 0.4em; /* Grosimea liniei */
-  height: 3.5em; /* Înălțimea liniei */
-  background-color: var(--orange); /* Culoarea liniei */
-  display: inline-block; /* Afișează linia inline */
-  margin-right: 1em;
+  width: 0.4rem;
+  height: 3.5rem;
+  background-color: var(--orange);
+  display: inline-block;
+  margin-right: 1rem;
 }
 .container_line {
   display: flex;
@@ -88,38 +86,38 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .about-us p {
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-family: "Inter", sans-serif;
-  text-indent: 2em;
+  text-indent: 2rem;
   text-align: justify;
 }
 
 .category {
   width: fit-content;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: bold;
   background-color: var(--orange);
   color: var(--black);
-  letter-spacing: 0.2em;
-  margin-left: 1em;
-  margin-bottom: 1.5em;
-  margin-top: 2em;
+  letter-spacing: 0.2rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 .card p {
   color: #edd6c8;
   font-family: "Inter", sans-serif;
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 .cards_container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2em;
-  padding: 0 1em;
+  gap: 2rem;
+  padding: 0 1rem;
 }
 .card {
   display: flex;
@@ -128,22 +126,22 @@ main {
   justify-content: space-between;
   width: auto;
   height: auto;
-  padding: 1em 1.5em;
-  gap: 1em;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
   background-color: #111111;
 }
 
 .card img {
   border-radius: 10px;
-  width: 10em;
-  height: 10em;
+  width: 10rem;
+  height: 10rem;
 }
 .price {
   display: flex;
   justify-content: space-between;
-  gap: 4em;
+  gap: 4rem;
 }
 .price img {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
