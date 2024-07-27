@@ -1,1 +1,97 @@
 /* Aici vor fi stilurile pentru elementul main */
+main {
+  width: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 10rem;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: absolute;
+  width: 25rem;
+  height: 5.5rem;
+  right: 10rem;
+  top: -14rem;
+  background-color: var(--orange);
+  border-radius: 5px;
+}
+.product-buttons img {
+  width: 3rem;
+  height: 3rem;
+  align-self: center;
+}
+
+.product-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: var(--black);
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--orange);
+}
+
+.product-btn:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+#coffeelovers {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.img-and-about-us-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1rem 1rem;
+  height: auto;
+  width: auto;
+  gap: 5rem;
+}
+
+.left-side img {
+  width: 30rem;
+  height: 20rem;
+  border-radius: 10px;
+}
+
+.vertical_line {
+  width: 0.4rem;
+  height: 3.5rem;
+  background-color: var(--orange);
+  display: inline-block;
+  margin-right: 1rem;
+}
+.container_line {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.about-us p {
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  text-indent: 2rem;
+  text-align: justify;
+}
