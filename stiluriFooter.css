@@ -1,18 +1,17 @@
 /* Aici vor fi stilurile pentru elementul footer */
 footer {
-  width: 90em;
-  height: 20em;
-  top: 100px;
+  width: 90rem;
+  height: 25rem;
   background-image: url("imagini/fundal_footer.png");
-  background-size: 100% auto; /* Ajustează lățimea la 100% și păstrează proporțiile */
-  background-position: center bottom; /* Centrează imaginea vertical și o poziționează sus */
-  position: relative; /* Permite poziționarea relativă a elementelor din interiorul header-ului */
+  background-size: 100% auto;
+  background-position: center bottom;
+  position: relative;
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 footer a {
@@ -20,9 +19,9 @@ footer a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 200;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 0.1em;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: var(--white);
 }
@@ -31,19 +30,19 @@ footer a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap: 20px;
-  padding: 90px 0 20px 0;
+  gap: 1.25rem;
+  padding: 5.5rem 0 1.25rem 0;
 }
 .motto {
   font-family: "Qwitcher Grypen";
   font-style: normal;
   font-weight: bold;
-  font-size: 76px;
-  line-height: 40px;
-  letter-spacing: 0.1em;
+  font-size: 5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: var(--black);
-  padding-top: 20px;
+  padding-top: 1.25rem;
   align-self: flex-start;
 }
 .footer-mail {
@@ -53,7 +52,7 @@ footer a {
 }
 .footer-info {
   display: flex;
-  gap: 30px;
+  gap: 2rem;
   align-self: flex-end;
   align-self: center;
 }
@@ -61,12 +60,11 @@ footer a {
 .icons {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  width: 350px;
+  padding-top: 1.25rem;
 }
 .icons_color {
   filter: invert(98%) sepia(0%) saturate(1710%) hue-rotate(297deg)
     brightness(112%) contrast(101%);
-  width: 50px;
-  height: 30px;
+  width: 3rem;
+  height: 2rem;
 }
