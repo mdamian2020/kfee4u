@@ -1,13 +1,11 @@
 header {
-  width: 90rem;
   background-image: url("imagini/fundal_header.png");
   background-size: 100% auto;
   background-position: center top;
-  height: 30rem;
-  position: relative;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
+
 /*modificare culoare si dimensiune logo*/
 .orange {
   filter: invert(80%) sepia(43%) saturate(3785%) hue-rotate(328deg)
@@ -15,28 +13,24 @@ header {
   width: 5rem;
   height: 4rem;
 }
-#logo-meniu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.25rem;
-  height: 4rem;
-  width: 70rem;
-  margin: 0 auto;
-}
 
 .logo {
+  width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  margin: 0 auto;
 }
 
 /* txt_logo */
 .coffeelovers {
   font-family: "Qwitcher Grypen";
-  font-weight: 30rem;
+  font-weight: bolder;
   font-size: 4rem;
-  line-height: 0.2rem;
+  line-height: 4rem;
+  margin-top: -1rem;
   letter-spacing: 0.1rem;
   color: var(--orange);
   padding-left: 0.2rem;
