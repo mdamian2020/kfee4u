@@ -1,4 +1,6 @@
 header {
+  max-width: 1440px;
+  width: 100%;
   background-image: url("imagini/fundal_header.png");
   background-size: 100% auto;
   background-position: center top;
