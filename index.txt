@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{nume}}</title>
+    <link rel="stylesheet" type="text/css" href="stiluriResetare.css" />
+    <link rel="stylesheet" type="text/css" href="stiluriHeader.css" />
+    <link rel="stylesheet" type="text/css" href="stiluriMain.css" />
+    <link rel="stylesheet" type="text/css" href="stiluriFooter.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Aici se include elementul header -->
+      <header>
+        <div class="logo">
+          <div>
+             <a href="#">
+                <img src="{{logo}}" alt="cofee_logo" class="orange"/>
+             </a>
+          </div>
+          <h1 class="coffeelovers">coffeelovers</h1>
+        </div>
+      </header>
+
+      <!-- Aici se include elementul main -->
+      <main>
+        <div id="categs">
+          {{categorii}}
+        </div>
+
+        <section class="sectiune">
+          <div id="nume-cafenea">
+            {{nume}}
+          </div>
+          <div class="img-and-about-us-container">   
+            <div class="left-side">
+              <img id="imagine" src="{{imagine}}" alt="cafenea"/>
+            </div>
+            <div class="right-side">
+              <h2>About us</h2>
+              <div class="prezentare">
+                 {{prezentare}}
+              </div>
+            </div>
+          </div>  
+        </section> 
+        <section>
+          <div id="antet" class="products">{{antet}}</div> 
+          <div id="cardprod" class="cards_container">
+            {{carduri}}
+          </div>
+      </section>
+      </main>
+
+      <!-- Aici se include elementul footer -->
+      <footer>
+        <div class="continut-footer">
+          <div class="motto">
+            <div>dark coffee.</div> 
+            <div style="padding-left: 3rem;">bright future.</div>
+          </div>
+          <div class="mail">
+            <div class="mail-icons">
+              <div>info@coffeelovers.com</div>
+              <div class="icons">
+                <a href="{{facebook}}">
+                  <img
+                    src="imagini/facebook_icon.svg"
+                    alt="facebook_icon"
+                    class="icons_color"
+                  />
+                </a>
+                <a href="{{instagram}}">
+                  <img
+                    src="imagini/instagram_icon.svg"
+                    alt="instagram_icon"
+                    class="icons_color"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-info">
+              <a href="#">privacy policy</a>
+              <a href="#">terms & conditions</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+      const idCafenea = {{id_cafenea}}
+    </script>
+  </body>
+</html>
