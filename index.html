@@ -13,58 +13,52 @@
     <div id="container">
       <!-- Aici se include elementul header -->
       <header>
-        <div id="logo-meniu">
-          <div class="logo">
-            <div><a href="#">
-              <img id="logo" 
-                src="imagini/logo_kfee4u.svg"
-                alt="cofee_logo"
-                class="orange"
-              /></a>
-            </div>
-            <p><h1 class="coffeelovers">coffeelovers</h1></p>
+        <div class="logo">
+          <div>
+             <a href="#">
+                <img src="imagini/logo_kfee4u.svg" alt="cofee_logo" class="orange"/>
+             </a>
           </div>
+          <h1 class="coffeelovers">coffeelovers</h1>
         </div>
       </header>
 
       <!-- Aici se include elementul main -->
       <main>
-        <section>
-          <div class="product-buttons">
-                <button class="product-btn" id="btn1">
-                  <img src="imagini/coffee_cup.svg" alt="coffee_cup">
-                  Coffee
-                </button>
-                <button class="product-btn"  id="btn2">
-                  <img src="imagini/tea_cup.svg" alt="tea_cup" style="padding-bottom: 5px;">
-                  Tea
-                </button>
-                <button class="product-btn"  id="btn3">
-                  <img src="imagini/cookies.svg" alt="cookies" style="padding-bottom: 5px;">
-                  Cookies
-                </button>
-          </div>
-          <div id="coffeelovers">
-            <img src="imagini/coffeelovers.png" alt="coffeelovers">
+        <div id="categs">
+          <button class="categ" id="1">
+            <img src="imagini/coffee_cup.svg" alt="coffee_cup">
+            Coffee
+          </button>
+          <button class="categ" id="2">
+            <img src="imagini/tea_cup.svg" alt="tea_cup" style="padding-bottom: 5px;">
+            Tea
+          </button>
+          <button class="categ"  id="3">
+            <img src="imagini/cookies.svg" alt="cookies" style="padding-bottom: 5px;">
+            Cookies
+          </button>
+        </div>
+
+        <section class="sectiune">
+          <div id="nume-cafenea">
+            Kfee4u
           </div>
           <div class="img-and-about-us-container">   
             <div class="left-side">
-              <img id="cafenea" src="imagini/spatiu-cafenea.jpg" alt="cafenea"/>
+              <img src="imagini/spatiu_kfee4u.jpg" alt="cafenea"/>
             </div>
-            <div class="about-us">
-              <div class="container_line">
-                <div class="vertical_line"></div>
-                <h2>About us</h2>
-              </div>
+            <div class="right-side">
+              <h2>About us</h2>
               <div id="prezentare">
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officia, sunt voluptas veniam sapiente enim cum illo, molestiae quod placeat maiores possimus at blanditiis aspernatur ratione iusto dolor, sequi harum?</p>
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque exercitationem quidem quis? Vel, molestias. Omnis enim praesentium maxime sit voluptates commodi sequi quae, aliquam nesciunt, expedita adipisci explicabo laborum odio.</p>
               </div>
-              </div>
+            </div>
           </div>  
         </section> 
         <section>
-          <div class="category">All coffees</div> 
+          <div id="antet" class="products">All coffees</div> 
           <div id="cardprod" class="cards_container">
             <div class="card">
               <img src="imagini/cappuccino.png" alt="cappuccino">
@@ -117,40 +111,41 @@
               </div>
             </div>
           </div>
-          
       </section>
-  
       </main>
-      
-     
-
 
       <!-- Aici se include elementul footer -->
       <footer>
-        <div class="motto-email">
-          <div class="motto">dark coffee. <br> <pre> </pre> <span style="display:inline-block; width: 80px;"></span>bright future</div>
-          <div class="footer-mail">
-            <a href="#">info@coffeelovers.com</a>
+        <div class="continut-footer">
+          <div class="motto">
+            <div>dark coffee.</div> 
+            <div style="padding-left: 3rem;">bright future.</div>
           </div>
-      </div>
-      <div class="icons-info">
-          <div class="icons">
-            <a href="#">
-              <img
-                src="imagini/facebook_icon.svg"
-                alt="facebook_icon"
-                class="icons_color"
-              /></a>
-              <a href="#">
-                <img
-                  src="imagini/instagram_icon.svg"
-                  alt="instagram_icon"
-                  class="icons_color"
-                /></a>
-          </div>
-          <div class="footer-info">
-            <a href="#">privacy policy</a>
-            <a href="#">terms & conditions</a>
+          <div class="mail">
+            <div class="mail-icons">
+              <div>info@coffeelovers.com</div>
+              <div class="icons">
+                <a href="#">
+                  <img
+                    src="imagini/facebook_icon.svg"
+                    alt="facebook_icon"
+                    class="icons_color"
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="imagini/instagram_icon.svg"
+                    alt="instagram_icon"
+                    class="icons_color"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-info">
+              <a href="#">privacy policy</a>
+              <a href="#">terms & conditions</a>
+            </div>
           </div>
         </div>
       </footer>
