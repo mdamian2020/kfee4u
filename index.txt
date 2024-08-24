@@ -92,7 +92,7 @@
 
     <!-- JavaScript -->
     <script>
-      const idCafenea = {{id_cafenea}}
+      const idCafenea = {{id}}
     </script>
   </body>
 </html>
